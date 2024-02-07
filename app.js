@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Hey TG Back-End. It is working!')
+    res.send('Git Action Testing~~. It is working!')
 })
 
 app.listen(6060, () => {
